@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Albumupdated/static/css/main.70ccc03c.css",
+    "main.js": "/Albumupdated/static/js/main.e9e3fe4b.js",
+    "index.html": "/Albumupdated/index.html",
+    "main.70ccc03c.css.map": "/Albumupdated/static/css/main.70ccc03c.css.map",
+    "main.e9e3fe4b.js.map": "/Albumupdated/static/js/main.e9e3fe4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ccc03c.css",
+    "static/js/main.e9e3fe4b.js"
+  ]
+}
