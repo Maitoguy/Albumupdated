@@ -1,0 +1,258 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #283593;
+    color: #ffffff;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    text-decoration: none;
+    color: inherit; 
+  }
+  
+  .navbar h1 a {
+    color: inherit;
+  }
+  
+  .navbar button {
+    background-color: #FF5722;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar button:hover {
+    background-color: #E64A19;
+  }
+  
+  .navbar button a {
+    text-decoration: none;
+    color: inherit; 
+  }
+  
+
+/* Update */
+.update-album {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-album form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input {
+    margin-bottom: 20px;
+  }
+  
+  .form-input label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .form-input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+/* Home.js */
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .created-album {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .created-album > div {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .created-album h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .created-album h2 {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .created-album p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+/* Create Album */
+.create-album {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-album form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input {
+    margin-bottom: 20px;
+  }
+  
+  .form-input label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .form-input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-btn {
+    background-color: #2196F3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-btn:hover {
+    background-color: #0D47A1;
+  }
+
+/* Carousel.js */
+.carousel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+  
+  .carousel-button {
+    background-color: #2196F3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-button.prev {
+    margin-right: 10px;
+  }
+  
+  .carousel-button:hover {
+    background-color: #0D47A1;
+  }
+  
+  .carousel-inner {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-slide {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .carousel-slide.active {
+    opacity: 1;
+  }
+  
+  .album {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .photos {
+    text-align: center;
+  }
+  
+  .photos h1 {
+    font-size: 24px;
+  }
+  
+  .photos h3 {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .photos button {
+    background-color: #FF5722;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .photos button:hover {
+    background-color: #E64A19;
+  }
+  
+  
+  
